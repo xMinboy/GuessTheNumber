@@ -34,14 +34,14 @@ main {
 }
 
 .left {
-  width: 52rem;
+  width: 42rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .right {
-  width: 52rem;
+  width: 42rem;
   font-size: 2rem;
 }
 
@@ -72,7 +72,7 @@ h1 {
 .between {
   font-size: 1.4rem;
   position: absolute;
-  top: 2rem;
+  top: 9rem;
   right: 2rem;
 }
 
