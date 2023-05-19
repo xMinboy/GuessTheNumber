@@ -23,8 +23,8 @@ document.querySelector('.check').addEventListener('click', function () {
     const guess = Number(document.querySelector('.guess').value);
     console.log(guess, typeof guess);
 
-    if (!guess) {
-        document.querySelector('.message').textContent = '❌ No Number Entered'
+    if (!guess || guess < 1 || guess > 20) {
+        document.querySelector('.message').textContent = '❌ No Valid Number Entered'
     } else if (guess == secretNumber) {
         document.querySelector('.message').textContent = '👌 Correct!'
         document.querySelector('.number').textContent = secretNumber
